@@ -6,7 +6,18 @@
 
 [English](#english) · [Italiano](#italiano) · [Releases](https://github.com/tonyluca86/USBBridge/releases) · [Issues](https://github.com/tonyluca86/USBBridge/issues) · [Release notes / Note versione](docs/RELEASE-1.6.3.md)
 
-> **Download status / Stato download:** the 1.6.3 executable is prepared but not yet released. Third-party notices and final Windows testing remain pending. / L'eseguibile 1.6.3 è predisposto, ma non ancora pubblicato: restano da completare gli avvisi di licenza di terze parti e il collaudo finale Windows.
+## ⬇️ Download USB Bridge / Scarica USB Bridge
+
+[![Download USB Bridge 1.6.3 for Windows](https://img.shields.io/badge/DOWNLOAD-USB%20Bridge%201.6.3%20%7C%20Windows%20x64-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/tonyluca86/USBBridge/releases)
+
+**USBBridge.exe · Windows x64 · 144.7 MB · Free / Gratuito**
+
+[**Download page / Pagina di download**](https://github.com/tonyluca86/USBBridge/releases) · [SHA-256 / Verifica integrità](docs/RELEASE-1.6.3.md)
+
+The executable is available to the public once the v1.6.3 pre-release is published. Open Releases and select **USBBridge.exe** under Assets. / L'eseguibile sarà disponibile al pubblico dopo la pubblicazione della pre-release v1.6.3. Aprire Releases e selezionare **USBBridge.exe** sotto Assets.
+
+> Public beta: final Windows testing and third-party notice review remain to be confirmed. / Beta pubblica: collaudo finale Windows e verifica degli avvisi di terze parti ancora da confermare.
+
 
 ## English
 
