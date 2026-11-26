@@ -93,3 +93,9 @@ Use [GitHub Issues](https://github.com/tonyluca86/USBBridge/issues) for feedback
 **© 2026 Luca Giardina. All rights reserved / Tutti i diritti riservati.**
 
 Independent project, not affiliated with Home Assistant or hardware manufacturers. / Progetto indipendente, non affiliato a Home Assistant o ai produttori hardware.
+
+## Screenshot
+
+![USB Bridge interface, version 1.2.6, private addresses redacted](docs/images/usb-bridge-screenshot.png)
+
+*Screenshot from an earlier version / Schermata di una versione precedente.*
