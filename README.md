@@ -4,7 +4,7 @@
 
 ![Windows](https://img.shields.io/badge/Windows-x64-0078D4) ![Version](https://img.shields.io/badge/version-1.3.1-blue) ![Status](https://img.shields.io/badge/status-beta%20candidate-orange) ![Distribution](https://img.shields.io/badge/distribution-freeware-green)
 
-[English](#english) · [Italiano](#italiano) · [Releases](https://github.com/tonyluca86/USBBridge/releases) · [Issues](https://github.com/tonyluca86/USBBridge/issues)
+[English](#english) · [Italiano](#italiano) · [Releases](https://github.com/tonyluca86/USBBridge/releases) · [Issues](https://github.com/tonyluca86/USBBridge/issues) · [Release notes / Note versione](docs/RELEASE-1.3.1.md)
 
 > **Download status / Stato download:** the 1.3.1 binary package is prepared but not yet released. Third-party notices and final Windows testing remain pending. / Il pacchetto 1.3.1 è predisposto, ma non ancora pubblicato: restano da completare gli avvisi di licenza di terze parti e il collaudo finale Windows.
 
@@ -85,6 +85,8 @@ Un solo driver per coordinatore. Eseguire il backup della rete prima della migra
 ## Support / Sostieni il progetto
 
 Free compiled application; source code remains private. Donations are optional. / Applicativo compilato destinato alla distribuzione gratuita; sorgenti privati. Donazioni facoltative.
+
+[Support with PayPal / Dona con PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ebay%40lucagiardina.com&item_name=Donazione%20per%20lo%20sviluppo%20di%20USB%20Bridge)
 
 Use [GitHub Issues](https://github.com/tonyluca86/USBBridge/issues) for feedback. Include adapter, version and redacted logs; never post passwords, tokens or private configuration.
 
