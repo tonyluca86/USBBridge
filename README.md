@@ -2,11 +2,11 @@
 
 **Bring your USB smart-home coordinators to Home Assistant over your local network.**
 
-![Windows](https://img.shields.io/badge/Windows-x64-0078D4) ![Version](https://img.shields.io/badge/version-1.3.1-blue) ![Status](https://img.shields.io/badge/status-beta%20candidate-orange) ![Distribution](https://img.shields.io/badge/distribution-freeware-green)
+![Windows](https://img.shields.io/badge/Windows-x64-0078D4) ![Version](https://img.shields.io/badge/version-1.6.3-blue) ![Status](https://img.shields.io/badge/status-beta%20candidate-orange) ![Distribution](https://img.shields.io/badge/distribution-freeware-green)
 
-[English](#english) · [Italiano](#italiano) · [Releases](https://github.com/tonyluca86/USBBridge/releases) · [Issues](https://github.com/tonyluca86/USBBridge/issues) · [Release notes / Note versione](docs/RELEASE-1.3.1.md)
+[English](#english) · [Italiano](#italiano) · [Releases](https://github.com/tonyluca86/USBBridge/releases) · [Issues](https://github.com/tonyluca86/USBBridge/issues) · [Release notes / Note versione](docs/RELEASE-1.6.3.md)
 
-> **Download status / Stato download:** the 1.3.1 binary package is prepared but not yet released. Third-party notices and final Windows testing remain pending. / Il pacchetto 1.3.1 è predisposto, ma non ancora pubblicato: restano da completare gli avvisi di licenza di terze parti e il collaudo finale Windows.
+> **Download status / Stato download:** the 1.6.3 executable is prepared but not yet released. Third-party notices and final Windows testing remain pending. / L'eseguibile 1.6.3 è predisposto, ma non ancora pubblicato: restano da completare gli avvisi di licenza di terze parti e il collaudo finale Windows.
 
 ## English
 
@@ -33,12 +33,12 @@ USB coordinator <-- COM --> USB Bridge (Windows) <-- TCP / LAN --> Home Assistan
 | SONOFF ZBDongle-E, other Zigbee serial adapters | Candidate profiles; not physically tested |
 | Zigbee2MQTT | Not physically tested with USB Bridge |
 | Z-Wave JS | Candidate profiles; not physically tested |
-| Bluetooth LE | Excluded from the public binary package |
+| Bluetooth LE | Not verified for version 1.6.3 |
 
 ### Getting started
 
-1. Once released, download the official Windows ZIP from [Releases](https://github.com/tonyluca86/USBBridge/releases).
-2. Extract all files, close any old tray panel, run USBBridge.exe and follow the integrated installation.
+1. Once released, download the official Windows executable from [Releases](https://github.com/tonyluca86/USBBridge/releases).
+2. Save the executable in a permanent folder, close any old tray panel, run USBBridge.exe and follow the integrated installation.
 3. Choose the correct coordinator, COM port, serial settings, Windows LAN IP, authorized client IP and TCP port.
 4. Save and apply, then configure the matching Home Assistant integration.
 5. For ZHA use a serial network endpoint such as `socket://PC_IP:6638`. For Zigbee2MQTT use `tcp://PC_IP:6638` with the matching adapter type. For Z-Wave JS use the TCP path in the driver; Home Assistant connects to the driver's WebSocket server.
@@ -70,12 +70,12 @@ Coordinatore USB <-- COM --> USB Bridge (Windows) <-- TCP / LAN --> Home Assista
 | SONOFF ZBDongle-E e altri adattatori Zigbee seriali | Profili predisposti, non collaudati fisicamente |
 | Zigbee2MQTT | Non collaudato fisicamente con USB Bridge |
 | Z-Wave JS | Profili predisposti, non collaudati fisicamente |
-| Bluetooth LE | Escluso dal pacchetto binario pubblico |
+| Bluetooth LE | Non verificato per la versione 1.6.3 |
 
 ### Installazione
 
-1. Quando disponibile, scaricare lo ZIP Windows ufficiale dalla sezione [Releases](https://github.com/tonyluca86/USBBridge/releases).
-2. Estrarre tutti i file, chiudere l'eventuale pannello precedente e avviare USBBridge.exe. Seguire l'installazione integrata.
+1. Quando disponibile, scaricare l'eseguibile Windows ufficiale dalla sezione [Releases](https://github.com/tonyluca86/USBBridge/releases).
+2. Salvare l'eseguibile in una cartella definitiva, chiudere l'eventuale pannello precedente e avviare USBBridge.exe. Seguire l'installazione integrata.
 3. Selezionare modello, COM, parametri seriali, IP LAN del PC, IP del client autorizzato e porta TCP.
 4. Salvare e applicare. Configurare l'integrazione Home Assistant corrispondente.
 5. Per ZHA usare ad esempio `socket://IP_PC:6638`; per Zigbee2MQTT `tcp://IP_PC:6638` con il profilo corretto. Per Z-Wave JS il TCP va configurato nel driver; Home Assistant usa il WebSocket del server.
